@@ -1,0 +1,30 @@
+p {
+  text-align: justify;
+  padding: 10px;
+  background: beige;
+}
+.sample {
+  background: lightgray;
+  font-style: italic;
+}
+p.method {
+  background: gray;
+}
+h3.method {
+    text-decoration: underline;
+  }
+#definition {
+background: sandybrown;
+padding: 12px;
+border-style: solid; color:  black;
+}
+.some-div::after {
+  content: '';
+  background: red;
+  position: absolute;
+  height: 10px;
+  width: 90px; 
+  top: 30px;
+  right: -10px;
+  transform: rotate(45deg);
+}
